@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/weng/work/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/weng/work/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/weng/work/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/weng/work/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/weng/work/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/weng/work/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

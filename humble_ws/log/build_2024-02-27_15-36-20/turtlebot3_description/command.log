@@ -1,0 +1,6 @@
+Invoking command in '/home/weng/work/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/turtlebot3_description
+Invoked command in '/home/weng/work/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/turtlebot3_description
+Invoking command in '/home/weng/work/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/turtlebot3_description -- -j16 -l16
+Invoked command in '/home/weng/work/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/turtlebot3_description -- -j16 -l16
+Invoking command in '/home/weng/work/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/turtlebot3_description
+Invoked command in '/home/weng/work/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/turtlebot3_description

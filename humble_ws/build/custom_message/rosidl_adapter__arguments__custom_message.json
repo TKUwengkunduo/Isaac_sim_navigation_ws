@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_message",
+  "non_idl_tuples": [
+    "/home/weng/work/src/custom_message:msg/SampleMsg.msg"
+  ]
+}

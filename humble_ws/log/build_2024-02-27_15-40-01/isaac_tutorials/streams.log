@@ -1,0 +1,29 @@
+[0.629s] Invoking command in '/home/weng/work/build/isaac_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/isaac_tutorials -- -j16 -l16
+[0.696s] Invoked command in '/home/weng/work/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/isaac_tutorials -- -j16 -l16
+[0.927s] Invoking command in '/home/weng/work/build/isaac_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/isaac_tutorials
+[1.013s] -- Install configuration: ""
+[1.013s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2
+[1.013s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_lidar.rviz
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/turtle_stereo.rviz
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/rtx_lidar.rviz
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_manual.rviz
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/carter_stereo.rviz
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/scripts
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher.py
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/lib/isaac_tutorials/ros2_publisher.py
+[1.014s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/package_run_dependencies/isaac_tutorials
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/parent_prefix_path/isaac_tutorials
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.sh
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.dsv
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/path.sh
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/path.dsv
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.bash
+[1.015s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.sh
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.zsh
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.dsv
+[1.016s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/package.dsv
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/packages/isaac_tutorials
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig.cmake
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig-version.cmake
+[1.016s] -- Up-to-date: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/package.xml
+[1.204s] Invoked command in '/home/weng/work/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/isaac_tutorials

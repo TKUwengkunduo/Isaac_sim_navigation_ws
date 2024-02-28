@@ -1,0 +1,4 @@
+Invoking command in '/home/weng/work/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/turtlebot3_cartographer -- -j16 -l16
+Invoked command in '/home/weng/work/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/turtlebot3_cartographer -- -j16 -l16
+Invoking command in '/home/weng/work/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/turtlebot3_cartographer
+Invoked command in '/home/weng/work/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/turtlebot3_cartographer

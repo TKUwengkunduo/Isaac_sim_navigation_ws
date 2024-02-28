@@ -1,0 +1,6 @@
+{
+  "package_name": "isaac_ros2_messages",
+  "non_idl_tuples": [
+    "/home/weng/work/src/isaac_ros2_messages:srv/IsaacPose.srv"
+  ]
+}

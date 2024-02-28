@@ -1,0 +1,49 @@
+[0.665s] Invoking command in '/home/weng/work/build/isaac_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/isaac_tutorials
+[0.742s] -- The C compiler identification is GNU 11.4.0
+[0.818s] -- The CXX compiler identification is GNU 11.4.0
+[0.842s] -- Detecting C compiler ABI info
+[0.927s] -- Detecting C compiler ABI info - done
+[0.943s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.943s] -- Detecting C compile features
+[0.943s] -- Detecting C compile features - done
+[0.955s] -- Detecting CXX compiler ABI info
+[1.058s] -- Detecting CXX compiler ABI info - done
+[1.074s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.074s] -- Detecting CXX compile features
+[1.076s] -- Detecting CXX compile features - done
+[1.081s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.551s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.636s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.693s] -- Configuring done (1.0s)
+[1.697s] -- Generating done (0.0s)
+[1.698s] -- Build files have been written to: /home/weng/work/build/isaac_tutorials
+[1.707s] Invoked command in '/home/weng/work/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/isaac_tutorials
+[1.708s] Invoking command in '/home/weng/work/build/isaac_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/isaac_tutorials -- -j16 -l16
+[1.810s] Invoked command in '/home/weng/work/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/isaac_tutorials -- -j16 -l16
+[1.897s] Invoking command in '/home/weng/work/build/isaac_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/isaac_tutorials
+[1.928s] -- Install configuration: ""
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_lidar.rviz
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/turtle_stereo.rviz
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/rtx_lidar.rviz
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_manual.rviz
+[1.928s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/rviz2/carter_stereo.rviz
+[1.929s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/scripts
+[1.929s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher.py
+[1.929s] -- Installing: /home/weng/work/install/isaac_tutorials/lib/isaac_tutorials/ros2_publisher.py
+[1.929s] -- Installing: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/package_run_dependencies/isaac_tutorials
+[1.929s] -- Installing: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/parent_prefix_path/isaac_tutorials
+[1.930s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.sh
+[1.930s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.dsv
+[1.930s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/path.sh
+[1.930s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/environment/path.dsv
+[1.930s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.bash
+[1.931s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.sh
+[1.931s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.zsh
+[1.931s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/local_setup.dsv
+[1.931s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/package.dsv
+[1.931s] -- Installing: /home/weng/work/install/isaac_tutorials/share/ament_index/resource_index/packages/isaac_tutorials
+[1.932s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig.cmake
+[1.932s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig-version.cmake
+[1.932s] -- Installing: /home/weng/work/install/isaac_tutorials/share/isaac_tutorials/package.xml
+[1.996s] Invoked command in '/home/weng/work/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/isaac_tutorials

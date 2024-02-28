@@ -1,0 +1,23 @@
+[1.263s] Invoking command in '/home/weng/work/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/home/weng/work/build/isaac_ros_navigation_goal/prefix_override:/home/weng/work/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/weng/work/build/isaac_ros_navigation_goal/build install --record /home/weng/work/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed
+[1.476s] running egg_info
+[1.477s] writing ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/PKG-INFO
+[1.477s] writing dependency_links to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[1.478s] writing entry points to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/entry_points.txt
+[1.478s] writing requirements to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/requires.txt
+[1.478s] writing top-level names to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/top_level.txt
+[1.479s] reading manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[1.480s] writing manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[1.480s] running build
+[1.481s] running build_py
+[1.481s] running install
+[1.481s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.482s]   warnings.warn(
+[1.482s] running install_lib
+[1.483s] running install_data
+[1.483s] running install_egg_info
+[1.485s] removing '/home/weng/work/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal-0.0.1-py3.10.egg-info' (and everything under it)
+[1.485s] Copying ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info to /home/weng/work/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal-0.0.1-py3.10.egg-info
+[1.486s] running install_scripts
+[1.503s] Installing SetNavigationGoal script to /home/weng/work/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[1.504s] writing list of installed files to '/home/weng/work/build/isaac_ros_navigation_goal/install.log'
+[1.746s] Invoked command in '/home/weng/work/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/home/weng/work/build/isaac_ros_navigation_goal/prefix_override:/home/weng/work/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/weng/work/build/isaac_ros_navigation_goal/build install --record /home/weng/work/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed
