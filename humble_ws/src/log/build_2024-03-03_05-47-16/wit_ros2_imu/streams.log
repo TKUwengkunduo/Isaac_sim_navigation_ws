@@ -1,0 +1,42 @@
+[0.646s] Invoking command in '/home/weng/work/humble_ws/src/wit_ros2_imu': PYTHONPATH=/home/weng/work/humble_ws/src/build/wit_ros2_imu/prefix_override:/home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/wit_ros2_imu build --build-base /home/weng/work/humble_ws/src/build/wit_ros2_imu/build install --record /home/weng/work/humble_ws/src/build/wit_ros2_imu/install.log --install-scripts $base/lib/wit_ros2_imu --single-version-externally-managed
+[0.740s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.740s]   warnings.warn(
+[0.743s] running egg_info
+[0.743s] creating ../build/wit_ros2_imu/wit_ros2_imu.egg-info
+[0.743s] writing ../build/wit_ros2_imu/wit_ros2_imu.egg-info/PKG-INFO
+[0.744s] writing dependency_links to ../build/wit_ros2_imu/wit_ros2_imu.egg-info/dependency_links.txt
+[0.744s] writing entry points to ../build/wit_ros2_imu/wit_ros2_imu.egg-info/entry_points.txt
+[0.744s] writing requirements to ../build/wit_ros2_imu/wit_ros2_imu.egg-info/requires.txt
+[0.744s] writing top-level names to ../build/wit_ros2_imu/wit_ros2_imu.egg-info/top_level.txt
+[0.744s] writing manifest file '../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.744s] reading manifest file '../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.745s] writing manifest file '../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.745s] running build_py
+[0.745s] creating /home/weng/work/humble_ws/src/build/wit_ros2_imu/build
+[0.745s] creating /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib
+[0.745s] creating /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib/wit_ros2_imu
+[0.745s] copying wit_ros2_imu/wit_ros2_imu.py -> /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib/wit_ros2_imu
+[0.745s] copying wit_ros2_imu/__init__.py -> /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib/wit_ros2_imu
+[0.745s] running install
+[0.745s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.746s]   warnings.warn(
+[0.746s] running install_lib
+[0.746s] creating /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu
+[0.746s] copying /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib/wit_ros2_imu/wit_ros2_imu.py -> /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu
+[0.746s] copying /home/weng/work/humble_ws/src/build/wit_ros2_imu/build/lib/wit_ros2_imu/__init__.py -> /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu
+[0.746s] byte-compiling /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu/wit_ros2_imu.py to wit_ros2_imu.cpython-310.pyc
+[0.746s] byte-compiling /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu/__init__.py to __init__.cpython-310.pyc
+[0.746s] running install_data
+[0.747s] creating /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/ament_index
+[0.747s] creating /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/ament_index/resource_index
+[0.747s] creating /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/ament_index/resource_index/packages
+[0.747s] copying resource/wit_ros2_imu -> /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/ament_index/resource_index/packages
+[0.747s] copying package.xml -> /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/wit_ros2_imu
+[0.747s] copying launch/rviz_and_imu.launch.py -> /home/weng/work/humble_ws/src/install/wit_ros2_imu/share/wit_ros2_imu
+[0.747s] running install_egg_info
+[0.748s] Copying ../build/wit_ros2_imu/wit_ros2_imu.egg-info to /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages/wit_ros2_imu-0.0.0-py3.10.egg-info
+[0.748s] running install_scripts
+[0.758s] Installing wit_ros2_imu script to /home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/wit_ros2_imu
+[0.758s] writing list of installed files to '/home/weng/work/humble_ws/src/build/wit_ros2_imu/install.log'
+[0.799s] Invoked command in '/home/weng/work/humble_ws/src/wit_ros2_imu' returned '0': PYTHONPATH=/home/weng/work/humble_ws/src/build/wit_ros2_imu/prefix_override:/home/weng/work/humble_ws/src/install/wit_ros2_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/wit_ros2_imu build --build-base /home/weng/work/humble_ws/src/build/wit_ros2_imu/build install --record /home/weng/work/humble_ws/src/build/wit_ros2_imu/install.log --install-scripts $base/lib/wit_ros2_imu --single-version-externally-managed

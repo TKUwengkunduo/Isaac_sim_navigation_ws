@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/weng/work/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh"
+. "/home/weng/work/humble_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh"

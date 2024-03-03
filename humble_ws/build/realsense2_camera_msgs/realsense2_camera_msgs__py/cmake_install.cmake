@@ -1,8 +1,8 @@
-# Install script for directory: /home/weng/work/build/realsense2_camera_msgs/realsense2_camera_msgs__py
+# Install script for directory: /home/weng/work/humble_ws/build/realsense2_camera_msgs/realsense2_camera_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weng/work/install/realsense2_camera_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/weng/work/humble_ws/install/realsense2_camera_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/weng/work/build/isaac_ros2_messages/isaac_ros2_messages__py
+# Install script for directory: /home/weng/work/humble_ws/build/isaac_ros2_messages/isaac_ros2_messages__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weng/work/install/isaac_ros2_messages")
+  set(CMAKE_INSTALL_PREFIX "/home/weng/work/humble_ws/install/isaac_ros2_messages")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

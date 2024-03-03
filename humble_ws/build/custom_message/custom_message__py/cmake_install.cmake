@@ -1,8 +1,8 @@
-# Install script for directory: /home/weng/work/build/custom_message/custom_message__py
+# Install script for directory: /home/weng/work/humble_ws/build/custom_message/custom_message__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weng/work/install/custom_message")
+  set(CMAKE_INSTALL_PREFIX "/home/weng/work/humble_ws/install/custom_message")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

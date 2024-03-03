@@ -1,13 +1,13 @@
 {
   "package_name": "realsense2_camera_msgs",
-  "output_dir": "/home/weng/work/build/realsense2_camera_msgs/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs",
+  "output_dir": "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl"
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -109,11 +109,11 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/IMUInfo.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Extrinsics.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Metadata.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/RGBD.idl",
-    "/home/weng/work/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/DeviceInfo.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/IMUInfo.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Extrinsics.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/Metadata.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/msg/RGBD.idl",
+    "/home/weng/work/humble_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs/srv/DeviceInfo.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",

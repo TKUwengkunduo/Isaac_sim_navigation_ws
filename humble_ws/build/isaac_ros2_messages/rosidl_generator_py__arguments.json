@@ -1,9 +1,9 @@
 {
   "package_name": "isaac_ros2_messages",
-  "output_dir": "/home/weng/work/build/isaac_ros2_messages/rosidl_generator_py/isaac_ros2_messages",
+  "output_dir": "/home/weng/work/humble_ws/build/isaac_ros2_messages/rosidl_generator_py/isaac_ros2_messages",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/weng/work/build/isaac_ros2_messages/rosidl_adapter/isaac_ros2_messages:srv/IsaacPose.idl"
+    "/home/weng/work/humble_ws/build/isaac_ros2_messages/rosidl_adapter/isaac_ros2_messages:srv/IsaacPose.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -82,7 +82,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/weng/work/build/isaac_ros2_messages/rosidl_adapter/isaac_ros2_messages/srv/IsaacPose.idl",
+    "/home/weng/work/humble_ws/build/isaac_ros2_messages/rosidl_adapter/isaac_ros2_messages/srv/IsaacPose.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",

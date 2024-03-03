@@ -1,6 +1,0 @@
-Invoking command in '/home/weng/work/build/carter_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/carter_navigation
-Invoked command in '/home/weng/work/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/home/weng/work/install/carter_navigation
-Invoking command in '/home/weng/work/build/carter_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/carter_navigation -- -j16 -l16
-Invoked command in '/home/weng/work/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/build/carter_navigation -- -j16 -l16
-Invoking command in '/home/weng/work/build/carter_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/carter_navigation
-Invoked command in '/home/weng/work/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/build/carter_navigation

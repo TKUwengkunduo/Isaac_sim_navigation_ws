@@ -1,0 +1,62 @@
+[0.462s] Invoking command in '/home/weng/work/humble_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/home/weng/work/humble_ws/build/isaac_ros_navigation_goal/prefix_override:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build install --record /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed
+[0.553s] running egg_info
+[0.553s] creating ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info
+[0.553s] writing ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[0.553s] writing entry points to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/entry_points.txt
+[0.553s] writing requirements to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/requires.txt
+[0.553s] writing top-level names to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/top_level.txt
+[0.554s] writing manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.554s] reading manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.554s] writing manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] creating /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build
+[0.555s] creating /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib
+[0.555s] creating /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.555s] copying isaac_ros_navigation_goal/obstacle_map.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.555s] copying isaac_ros_navigation_goal/set_goal.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.555s] copying isaac_ros_navigation_goal/__init__.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.555s] creating /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.555s] copying isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.555s] copying isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.555s] copying isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.555s] copying isaac_ros_navigation_goal/goal_generators/__init__.py -> /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.555s] running install
+[0.555s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.555s]   warnings.warn(
+[0.556s] running install_lib
+[0.556s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal
+[0.556s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/__init__.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/obstacle_map.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/set_goal.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal
+[0.556s] copying /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/__init__.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal
+[0.556s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators/goal_generator.py to goal_generator.cpython-310.pyc
+[0.556s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py to random_goal_generator.cpython-310.pyc
+[0.556s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators/goal_reader.py to goal_reader.cpython-310.pyc
+[0.557s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/goal_generators/__init__.py to __init__.cpython-310.pyc
+[0.557s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/obstacle_map.py to obstacle_map.cpython-310.pyc
+[0.557s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/set_goal.py to set_goal.cpython-310.pyc
+[0.557s] byte-compiling /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal/__init__.py to __init__.cpython-310.pyc
+[0.558s] running install_data
+[0.558s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/ament_index
+[0.558s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/ament_index/resource_index
+[0.558s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.558s] copying resource/isaac_ros_navigation_goal -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.559s] copying package.xml -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal
+[0.559s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.559s] copying launch/isaac_ros_navigation_goal.launch.py -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.559s] creating /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.559s] copying assets/carter_warehouse_navigation.yaml -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.559s] copying assets/goals.txt -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.559s] copying assets/carter_warehouse_navigation.png -> /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.560s] running install_egg_info
+[0.560s] Copying ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info to /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal-0.0.1-py3.10.egg-info
+[0.560s] running install_scripts
+[0.569s] Installing SetNavigationGoal script to /home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[0.569s] writing list of installed files to '/home/weng/work/humble_ws/build/isaac_ros_navigation_goal/install.log'
+[0.590s] Invoked command in '/home/weng/work/humble_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/home/weng/work/humble_ws/build/isaac_ros_navigation_goal/prefix_override:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/build install --record /home/weng/work/humble_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed

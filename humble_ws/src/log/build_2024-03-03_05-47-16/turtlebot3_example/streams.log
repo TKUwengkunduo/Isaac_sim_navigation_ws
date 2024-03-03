@@ -1,0 +1,89 @@
+[0.333s] Invoking command in '/home/weng/work/humble_ws/src/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weng/work/humble_ws/src/build/turtlebot3_example/prefix_override:/home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages:/home/weng/work/humble_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/weng/work/humble_ws/src/build/turtlebot3_example/build install --record /home/weng/work/humble_ws/src/build/turtlebot3_example/install.log --single-version-externally-managed
+[0.431s] running egg_info
+[0.431s] creating ../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.432s] writing ../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.432s] writing entry points to ../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.432s] writing requirements to ../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.432s] writing top-level names to ../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.432s] writing manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.433s] reading manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.433s] writing manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.433s] running build
+[0.433s] running build_py
+[0.433s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build
+[0.433s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib
+[0.433s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.433s] copying turtlebot3_example/__init__.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.433s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.433s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.433s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.434s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.434s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.434s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.434s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.434s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.434s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.434s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.434s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.434s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.434s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.434s] creating /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.434s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.434s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.435s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.435s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.435s] running install
+[0.435s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.435s]   warnings.warn(
+[0.435s] running install_lib
+[0.436s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.436s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.436s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.436s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.436s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.437s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.437s] copying /home/weng/work/humble_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.437s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[0.438s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[0.439s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-310.pyc
+[0.439s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-310.pyc
+[0.439s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.439s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-310.pyc
+[0.440s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-310.pyc
+[0.440s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-310.pyc
+[0.440s] byte-compiling /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[0.440s] running install_data
+[0.440s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/share/ament_index
+[0.440s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/share/ament_index/resource_index
+[0.440s] creating /home/weng/work/humble_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.440s] copying resource/turtlebot3_example -> /home/weng/work/humble_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.440s] copying package.xml -> /home/weng/work/humble_ws/src/install/turtlebot3_example/share/turtlebot3_example
+[0.440s] running install_egg_info
+[0.441s] Copying ../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.441s] running install_scripts
+[0.451s] Installing turtlebot3_obstacle_detection script to /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.451s] Installing turtlebot3_patrol_client script to /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.451s] Installing turtlebot3_patrol_server script to /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.451s] Installing turtlebot3_position_control script to /home/weng/work/humble_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.451s] writing list of installed files to '/home/weng/work/humble_ws/src/build/turtlebot3_example/install.log'
+[0.462s] Invoked command in '/home/weng/work/humble_ws/src/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/weng/work/humble_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/weng/work/humble_ws/src/build/turtlebot3_example/prefix_override:/home/weng/work/humble_ws/src/install/turtlebot3_example/lib/python3.10/site-packages:/home/weng/work/humble_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/weng/work/humble_ws/src/build/turtlebot3_example/build install --record /home/weng/work/humble_ws/src/build/turtlebot3_example/install.log --single-version-externally-managed

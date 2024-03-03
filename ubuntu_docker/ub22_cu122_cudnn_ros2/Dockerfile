@@ -21,6 +21,7 @@ ARG GID=1000
 
 # Switch apt source to Taiwan's mirror
 RUN sed -i 's@archive.ubuntu.com@tw.archive.ubuntu.com@g' /etc/apt/sources.list
+# RUN sed -i 's@archive.ubuntu.com@ftp.tku.edu.tw/@g' /etc/apt/sources.list
 
 # Update and Install Packages
 RUN apt-get update && apt-get install -y \
@@ -50,6 +51,7 @@ RUN echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu $(lsb_relea
 # 安裝ROS2 Humble
 RUN apt-get update && apt-get install -y ros-humble-desktop
 RUN apt-get update && apt-get install -y python3-colcon-common-extensions
+RUN apt update && apt install ros-humble-vision-msgs
 
 # 創建一個名為initial的用戶和用戶組
 RUN groupadd -g $GID $GROUP && \
@@ -62,7 +64,13 @@ RUN echo "source /opt/ros/humble/setup.bash" >> /home/${USER}/.bashrc
 RUN apt-get update && apt-get install -y ros-humble-diagnostic-updater
 RUN apt update && apt install -y ros-humble-dynamixel-sdk*
 
-
+# RealSense SDK2.0
+RUN sudo mkdir -p /etc/apt/keyrings
+RUN curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null
+RUN echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | \
+    tee /etc/apt/sources.list.d/librealsense.list
+RUN apt-get update
+RUN apt-get install -y librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg
 
 #=========================================================
 #    Installing python packages 
@@ -70,6 +78,16 @@ RUN apt update && apt install -y ros-humble-dynamixel-sdk*
 # ROBOTIS DYNAMIXEL
 # RUN pip3 install pynput
 
+
+
+#=========================================================
+#    Setting up Python PIP mirror for Taiwan
+#=========================================================
+USER ${USER}
+RUN mkdir -p /home/${USER}/.pip && \
+    echo "[global]\nindex-url = https://pypi.nctu.edu.tw/simple" > /home/${USER}/.pip/pip.conf
+
+USER root
 
 #=========================================================
 #    YOLOv7
@@ -79,6 +97,14 @@ RUN pip3 install numpy tqdm pandas seaborn unzip wandb
 RUN pip3 install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 RUN pip3 install tensorflow==2.15.0
 
+
+#=========================================================
+#    Setting up Python PIP mirror for Taiwan
+#=========================================================
+USER ${USER}
+RUN echo "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > /home/${USER}/.pip/pip.conf
+
+USER root
 
 # Timezone
 RUN echo "tzdata tzdata/Areas select Asia" | debconf-set-selections && \
