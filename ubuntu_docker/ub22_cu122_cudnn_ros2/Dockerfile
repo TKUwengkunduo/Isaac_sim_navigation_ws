@@ -20,8 +20,8 @@ ARG GROUP=initial
 ARG GID=1000
 
 # Switch apt source to Taiwan's mirror
-RUN sed -i 's@archive.ubuntu.com@tw.archive.ubuntu.com@g' /etc/apt/sources.list
-# RUN sed -i 's@archive.ubuntu.com@ftp.tku.edu.tw/@g' /etc/apt/sources.list
+# RUN sed -i 's@archive.ubuntu.com@tw.archive.ubuntu.com@g' /etc/apt/sources.list
+RUN sed -i 's@archive.ubuntu.com@ftp.tku.edu.tw/@g' /etc/apt/sources.list
 
 # Update and Install Packages
 RUN apt-get update && apt-get install -y \
@@ -53,6 +53,9 @@ RUN apt-get update && apt-get install -y ros-humble-desktop
 RUN apt-get update && apt-get install -y python3-colcon-common-extensions
 RUN apt update && apt install ros-humble-vision-msgs
 
+# DDS
+RUN apt update && apt install -y ros-humble-rmw-cyclonedds-cpp
+
 # 創建一個名為initial的用戶和用戶組
 RUN groupadd -g $GID $GROUP && \
     useradd -m -u $UID -g $GID -s /bin/bash $USER && \
@@ -72,6 +75,10 @@ RUN echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsens
 RUN apt-get update
 RUN apt-get install -y librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg
 
+# rviz map
+RUN apt-get update && apt-get install -y ros-humble-navigation2 \
+    ros-humble-nav2-bringup
+
 #=========================================================
 #    Installing python packages 
 #=========================================================
@@ -83,11 +90,10 @@ RUN apt-get install -y librealsense2-dkms librealsense2-utils librealsense2-dev 
 #=========================================================
 #    Setting up Python PIP mirror for Taiwan
 #=========================================================
-USER ${USER}
-RUN mkdir -p /home/${USER}/.pip && \
-    echo "[global]\nindex-url = https://pypi.nctu.edu.tw/simple" > /home/${USER}/.pip/pip.conf
-
-USER root
+# USER ${USER}
+# RUN mkdir -p /home/${USER}/.pip && \
+#     echo "[global]\nindex-url = https://pypi.nctu.edu.tw/simple" > /home/${USER}/.pip/pip.conf
+# USER root
 
 #=========================================================
 #    YOLOv7
@@ -101,10 +107,12 @@ RUN pip3 install tensorflow==2.15.0
 #=========================================================
 #    Setting up Python PIP mirror for Taiwan
 #=========================================================
-USER ${USER}
-RUN echo "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > /home/${USER}/.pip/pip.conf
+# USER ${USER}
+# RUN echo "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > /home/${USER}/.pip/pip.conf
+# USER root
 
-USER root
+# # DDS
+RUN echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 
 # Timezone
 RUN echo "tzdata tzdata/Areas select Asia" | debconf-set-selections && \

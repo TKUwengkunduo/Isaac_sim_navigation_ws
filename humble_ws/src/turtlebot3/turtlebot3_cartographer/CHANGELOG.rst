@@ -2,7 +2,7 @@
 Changelog for package turtlebot3_cartographer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.5 (2022-05-26)
+2.1.5 (2202-05-26)
 ------------------
 * ROS2 Humble Hawksbill supported
 * revise ROS2 Cartographer excutable & name
@@ -15,6 +15,14 @@ Changelog for package turtlebot3_cartographer
 ------------------
 * ROS 2 Rolling Ridley supported
 * fix RViz2 Cartographer default config
+* Contributors: Will Son
+
+2.1.2 (2021-04-07)
+------------------
+* none
+
+2.1.3 (2021-09-02)
+------------------
 * rename and update nav2 params
 * Contributors: Ashe Kim, Will Son
 

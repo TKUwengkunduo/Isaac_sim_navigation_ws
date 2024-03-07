@@ -1,0 +1,15 @@
+/home/weng/work/humble_ws/install/environment_pkg/share/ament_index/resource_index/package_run_dependencies/environment_pkg
+/home/weng/work/humble_ws/install/environment_pkg/share/ament_index/resource_index/parent_prefix_path/environment_pkg
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/environment/ament_prefix_path.sh
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/environment/ament_prefix_path.dsv
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/environment/path.sh
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/environment/path.dsv
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/local_setup.bash
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/local_setup.sh
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/local_setup.zsh
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/local_setup.dsv
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/package.dsv
+/home/weng/work/humble_ws/install/environment_pkg/share/ament_index/resource_index/packages/environment_pkg
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/cmake/environment_pkgConfig.cmake
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/cmake/environment_pkgConfig-version.cmake
+/home/weng/work/humble_ws/install/environment_pkg/share/environment_pkg/package.xml

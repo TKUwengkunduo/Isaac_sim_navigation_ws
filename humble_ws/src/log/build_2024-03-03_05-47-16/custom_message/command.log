@@ -1,6 +1,0 @@
-Invoking command in '/home/weng/work/humble_ws/src/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/humble_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/weng/work/humble_ws/src/install/custom_message
-Invoked command in '/home/weng/work/humble_ws/src/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/weng/work/humble_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/weng/work/humble_ws/src/install/custom_message
-Invoking command in '/home/weng/work/humble_ws/src/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/humble_ws/src/build/custom_message -- -j24 -l24
-Invoked command in '/home/weng/work/humble_ws/src/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/weng/work/humble_ws/src/build/custom_message -- -j24 -l24
-Invoking command in '/home/weng/work/humble_ws/src/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/humble_ws/src/build/custom_message
-Invoked command in '/home/weng/work/humble_ws/src/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/weng/work/humble_ws/src/build/custom_message

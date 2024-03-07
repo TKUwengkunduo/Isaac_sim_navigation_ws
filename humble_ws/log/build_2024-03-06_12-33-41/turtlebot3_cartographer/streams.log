@@ -1,0 +1,27 @@
+[0.241s] Invoking command in '/home/weng/work/humble_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/weng/work/humble_ws/install/wit_ros2_imu:/home/weng/work/humble_ws/install/turtlebot3_teleop:/home/weng/work/humble_ws/install/turtlebot3_example:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/weng/work/humble_ws/build/turtlebot3_cartographer -- -j24 -l24
+[0.682s] Invoked command in '/home/weng/work/humble_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/weng/work/humble_ws/install/wit_ros2_imu:/home/weng/work/humble_ws/install/turtlebot3_teleop:/home/weng/work/humble_ws/install/turtlebot3_example:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --build /home/weng/work/humble_ws/build/turtlebot3_cartographer -- -j24 -l24
+[0.701s] Invoking command in '/home/weng/work/humble_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/weng/work/humble_ws/install/wit_ros2_imu:/home/weng/work/humble_ws/install/turtlebot3_teleop:/home/weng/work/humble_ws/install/turtlebot3_example:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --install /home/weng/work/humble_ws/build/turtlebot3_cartographer
+[0.713s] -- Install configuration: ""
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.713s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.714s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.714s] -- Up-to-date: /home/weng/work/humble_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.763s] Invoked command in '/home/weng/work/humble_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/weng/work/humble_ws/install/wit_ros2_imu:/home/weng/work/humble_ws/install/turtlebot3_teleop:/home/weng/work/humble_ws/install/turtlebot3_example:/home/weng/work/humble_ws/install/isaac_ros_navigation_goal:/opt/ros/humble /usr/bin/cmake --install /home/weng/work/humble_ws/build/turtlebot3_cartographer

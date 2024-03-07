@@ -13,6 +13,7 @@
 /home/weng/work/humble_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
 /home/weng/work/humble_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
 /home/weng/work/humble_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+/home/weng/work/humble_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger/turtlebot3_burger.usd
 /home/weng/work/humble_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
 /home/weng/work/humble_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
 /home/weng/work/humble_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh

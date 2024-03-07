@@ -1,0 +1,26 @@
+[0.358s] Invoking command in '/home/weng/work/humble_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/weng/work/humble_ws/install/turtlebot3_msgs:/home/weng/work/humble_ws/install/turtlebot3:/home/weng/work/humble_ws/install/turtlebot3_bringup:/home/weng/work/humble_ws/install/turtlebot3_node:/home/weng/work/humble_ws/install/turtlebot3_navigation2:/home/weng/work/humble_ws/install/turtlebot3_description:/home/weng/work/humble_ws/install/turtlebot3_cartographer:/home/weng/work/humble_ws/install/realsense2_description:/home/weng/work/humble_ws/install/realsense2_camera:/home/weng/work/humble_ws/install/realsense2_camera_msgs:/home/weng/work/humble_ws/install/isaac_tutorials:/home/weng/work/humble_ws/install/isaac_ros2_messages:/home/weng/work/humble_ws/install/environment_pkg:/home/weng/work/humble_ws/install/custom_message:/home/weng/work/humble_ws/install/carter_navigation PYTHONPATH=/home/weng/work/humble_ws/build/turtlebot3_example/prefix_override:/home/weng/work/humble_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/weng/work/humble_ws/build/turtlebot3_example/build install --record /home/weng/work/humble_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[0.456s] running egg_info
+[0.456s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.456s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.456s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.456s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.456s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.457s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.457s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.457s] running build
+[0.457s] running build_py
+[0.458s] running install
+[0.458s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.458s]   warnings.warn(
+[0.458s] running install_lib
+[0.459s] running install_data
+[0.459s] running install_egg_info
+[0.460s] removing '/home/weng/work/humble_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info' (and everything under it)
+[0.460s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/weng/work/humble_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.460s] running install_scripts
+[0.470s] Installing turtlebot3_obstacle_detection script to /home/weng/work/humble_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.471s] Installing turtlebot3_patrol_client script to /home/weng/work/humble_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.471s] Installing turtlebot3_patrol_server script to /home/weng/work/humble_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.471s] Installing turtlebot3_position_control script to /home/weng/work/humble_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.471s] writing list of installed files to '/home/weng/work/humble_ws/build/turtlebot3_example/install.log'
+[0.481s] Invoked command in '/home/weng/work/humble_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/weng/work/humble_ws/install/turtlebot3_msgs:/home/weng/work/humble_ws/install/turtlebot3:/home/weng/work/humble_ws/install/turtlebot3_bringup:/home/weng/work/humble_ws/install/turtlebot3_node:/home/weng/work/humble_ws/install/turtlebot3_navigation2:/home/weng/work/humble_ws/install/turtlebot3_description:/home/weng/work/humble_ws/install/turtlebot3_cartographer:/home/weng/work/humble_ws/install/realsense2_description:/home/weng/work/humble_ws/install/realsense2_camera:/home/weng/work/humble_ws/install/realsense2_camera_msgs:/home/weng/work/humble_ws/install/isaac_tutorials:/home/weng/work/humble_ws/install/isaac_ros2_messages:/home/weng/work/humble_ws/install/environment_pkg:/home/weng/work/humble_ws/install/custom_message:/home/weng/work/humble_ws/install/carter_navigation PYTHONPATH=/home/weng/work/humble_ws/build/turtlebot3_example/prefix_override:/home/weng/work/humble_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/weng/work/humble_ws/build/turtlebot3_example/build install --record /home/weng/work/humble_ws/build/turtlebot3_example/install.log --single-version-externally-managed

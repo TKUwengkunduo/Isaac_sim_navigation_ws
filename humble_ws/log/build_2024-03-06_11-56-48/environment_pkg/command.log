@@ -1,0 +1,6 @@
+Invoking command in '/home/weng/work/humble_ws/build/environment_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/weng/work/humble_ws/src/environment_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/humble_ws/install/environment_pkg
+Invoked command in '/home/weng/work/humble_ws/build/environment_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/weng/work/humble_ws/src/environment_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/humble_ws/install/environment_pkg
+Invoking command in '/home/weng/work/humble_ws/build/environment_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/humble_ws/build/environment_pkg -- -j24 -l24
+Invoked command in '/home/weng/work/humble_ws/build/environment_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/humble_ws/build/environment_pkg -- -j24 -l24
+Invoking command in '/home/weng/work/humble_ws/build/environment_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/humble_ws/build/environment_pkg
+Invoked command in '/home/weng/work/humble_ws/build/environment_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/humble_ws/build/environment_pkg

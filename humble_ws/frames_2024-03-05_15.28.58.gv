@@ -1,0 +1,7 @@
+digraph G {
+"Environment" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 60.566\nBuffer length: 1.767\nMost recent transform: 297.083349\nOldest transform: 295.316682\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1709652538.1269681"[ shape=plaintext ] ;
+}->"Environment";
+}
